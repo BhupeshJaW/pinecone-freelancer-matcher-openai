@@ -49,4 +49,26 @@ Explanation:
 These freelancers were selected because their skill sets and availability closely align with the query “Python developer available full-time.”
 
 
+🧠 How It Works
 
+Embeds freelancer profiles using OpenAI’s text-embedding-3-small.
+
+Stores those embeddings in Pinecone.
+
+Takes a user query (like “graphic designer part-time”).
+
+Finds semantically closest profiles.
+
+Uses GPT-4o-mini to generate a natural-language explanation.
+
+🤝 Contributing
+
+Pull requests are welcome!
+If you’d like to add new datasets, improve matching logic, or integrate a UI, feel free to open an issue.
+
+📜 License
+
+This project is licensed under the MIT License — free for personal and commercial use.
+
+⭐ If you like this project, give it a star!
+Let’s make AI-powered hiring open-source!
